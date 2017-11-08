@@ -16,5 +16,5 @@ class Vestibular(models.Model):
 class candidato(models.Model):
     nome = models.CharField(max_length=200)
     
-class Lista(models.Model):
+class lista(models.Model):
     nome = models.CharField(max_length=200)
