@@ -83,7 +83,6 @@ def lista_candidatos (request):
         context_instance = RequestContext(request,
         {
             'title':'Cadastro de Candidatos',
-            'candidatos': Vestibular.objects.all(),
             'year':datetime.now().year,
         })
     )
