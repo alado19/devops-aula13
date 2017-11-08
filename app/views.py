@@ -96,7 +96,6 @@ def lista_prova(request):
         context_instance = RequestContext(request,
         {
             'title':'Locais das Provas',
-            'lista': Lista.objects.all(),
-            'year':datetime.now().year,
+            'lista': Lista.objects.all()
         })
     )
